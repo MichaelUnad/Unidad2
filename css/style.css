@@ -1,0 +1,104 @@
+﻿/*font-family: 'Pacifico';*/
+/*font-family: 'Lobster';*/
+
+#contenidos {
+	width: 1000px;
+	height: 88px;
+	margin: auto;
+	position:center;
+	background: orange;
+	border-radius: 60px;
+	}
+body{
+background-image: url(../image/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+font-family: 'Pacifico',;	
+/*para dar color a la letras ejemplo en este caso html 5 prueba3 se escribe color:black; que seria negro*/
+margin-left:30px; 
+font-size: 40px;
+text-align: center;
+}
+h2{
+font-family: 'Lobster',;	
+font-size: 30px;
+text-align: center;
+}
+h3{
+font-family: 'Lobster', cursive;	
+margin-left:20px; 
+font-size: 30px;
+text-align: center;
+}
+header{
+	width: 1000px;
+	height: 100px;
+	/* para dar transparencia al encabezado osea quitar el cuadro se escribe   background: rgba(255,255,255,0,5); */
+}
+ul{
+margin: auto;
+padding-top:100px;
+}
+li{
+float: left;
+list-style: none;
+padding: 8px;
+background: black;
+margin: 1px;
+border-radius: 10px;
+/*este es para ponerle reborde a los botones en este caso blanco box-shadow: 0 0 10px white inset;*/
+box-shadow: 0 0 10px green inset;
+}
+section{
+	/*mueve los botones del menu hacia el lado*/
+	width: 1000px;
+	background: white;
+	height: 500px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+} 
+aside{
+	/*ponemos un marco para los botones del menú*/
+	width: 500px;
+	background: black;
+	height: 500px;
+	float: left;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+/*pone fondo en el pie de pagina*/
+footer{
+	width: 1000px;
+	height: 20px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+/*pone tamaño y varias opciones en el texto central*/
+p{
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 26px;
+	padding: 20px;
+        background: white
+	text-align: justify;
+}
+
+/*clases*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+/*con el padding los botones tienen un cambio de posicion .menu:link{padding: 100px; color:white; text-decoration: none;}*/
+.menu:link{color:orange; text-decoration: none;}
+.menu:visited{color:red; text-decoration: none;}
+.menu:hover{ color:white; text-decoration: none;}
+.menu:active{color:white; text-decoration: none;}
+/*seudo clases*/
+li:hover{
+	background: orange;
+	box-shadow: 0 0 10px white inset;
+}
